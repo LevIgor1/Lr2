@@ -10,5 +10,7 @@ public class Main {
         double d2 = Math.random() * (9999 - 1) + 1;
         double d1 = d2 / s1 * s2;
         System.out.println(d1);
+
+        double y = 1/f1 - 2/f2 + Math.sin(s1)/Math.log(s2);
     }
 }
